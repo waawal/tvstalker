@@ -58,7 +58,7 @@ def index():
 
 @app.route("/")
 def person(name):
-    return flask.Response(['<a href="/feed"> Feed </a>'])
+    return '<a href="/feed"> Feed </a>'
 
 @app.route("/unsubscribe/<token>")
 def unsubscribe(token):
