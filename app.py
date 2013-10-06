@@ -56,7 +56,7 @@ def index():
     #return flask.render_template('index.html', shows=shows)
     return flask.Response(feed, mimetype='text/xml')
 
-@app.route("/index")
+@app.route("/")
 def person(name):
     ['<a href="/feed"> Feed </a>']
 
