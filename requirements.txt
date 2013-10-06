@@ -1,0 +1,5 @@
+PyRSS2Gen
+flask
+wikipedia
+requests
+gunicorn
